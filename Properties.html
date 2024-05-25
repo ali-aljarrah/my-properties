@@ -1,0 +1,1009 @@
+﻿<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عقاراتي - العقارات</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/client_captcha.js"></script>
+    <script src="./js/myFunctions.js"></script>
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="/home.html">
+          <img
+            class="mw-100"
+            width="129"
+            height="102"
+            loading="lazy"
+            src="./images/logo.png"
+            alt="SVU - Logo"
+          />
+        </a>
+      </div>
+      <nav>
+        <ul class="nav-bar">
+          <li><a href="/home.html">الرئيسية</a></li>
+          <li><a href="/Properties.html">العقارات</a></li>
+          <li><a href="/AboutUs.html">من نحن</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main-section text-right">
+      <div id="PropDiv">
+        <div class="course-info mb-30">
+          <h1>قائمة العقارات</h1>
+        </div>
+        <form action="#" name="propertiesForm">
+          <table class="custome-table w-100 mb-30">
+            <thead>
+              <tr>
+                <th></th>
+                <th>المدينة</th>
+                <th>تفاصيل</th>
+                <th>الايجار الشهري</th>
+                <th>اظهار التفاصيل</th>
+                <th>اختيار</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>دمشق</td>
+                <td>شقة غرفتين وصالة</td>
+                <td>900,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="1"
+                    type="checkbox"
+                    name="showInfo1"
+                    id="showInfo1"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="1" name="property" id="property1" />
+                </td>
+              </tr>
+              <tr id="hiddenRow1" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة البرامكة</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق الرابع</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>لا يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-1.webp"
+                          alt="المنطقة البرامكة"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-2.webp"
+                          alt="المنطقة البرامكة"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-3.webp"
+                          alt="المنطقة البرامكة"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>2</td>
+                <td>دمشق</td>
+                <td>شقة ثلاث غرف وصالة</td>
+                <td>1,000,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="2"
+                    type="checkbox"
+                    name="showInfo2"
+                    id="showInfo2"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="2" name="property" id="property2" />
+                </td>
+              </tr>
+              <tr id="hiddenRow2" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة المالكي</td>
+                      <td>يوجد كراج</td>
+                      <td>الطابق الاول</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-4.webp"
+                          alt="المنطقة المالكي"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-5.webp"
+                          alt="المنطقة المالكي"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-6.webp"
+                          alt="المنطقة المالكي"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>3</td>
+                <td>اللاذقية</td>
+                <td>شقة ثلاث غرف وصالة</td>
+                <td>1,500,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="3"
+                    type="checkbox"
+                    name="showInfo3"
+                    id="showInfo3"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="3" name="property" id="property3" />
+                </td>
+              </tr>
+              <tr id="hiddenRow3" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة الامريكان</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق الرابع</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-7.webp"
+                          alt="المنطقة الامريكان"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-8.webp"
+                          alt="المنطقة الامريكان"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-9.webp"
+                          alt="المنطقة الامريكان"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+  
+              <tr>
+                <td>4</td>
+                <td>دمشق</td>
+                <td>شقة غرفتين وصالة</td>
+                <td>1,600,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="4"
+                    type="checkbox"
+                    name="showInfo4"
+                    id="showInfo4"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="4" name="property" id="property4" />
+                </td>
+              </tr>
+              <tr id="hiddenRow4" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة الميدان</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق الاول</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>غير مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-10.webp"
+                          alt="المنطقة الميدان"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-11.webp"
+                          alt="المنطقة الميدان"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-12.webp"
+                          alt="المنطقة الميدان"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>دمشق</td>
+                <td>شقة غرفتين وصالة</td>
+                <td>1,800,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="5"
+                    type="checkbox"
+                    name="showInfo5"
+                    id="showInfo5"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="5" name="property" id="property5" />
+                </td>
+              </tr>
+              <tr id="hiddenRow5" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة الميدان</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق الاول</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>غير مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-13.webp"
+                          alt="المنطقة الميدان"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-14.webp"
+                          alt="المنطقة الميدان"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-15.webp"
+                          alt="المنطقة الميدان"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>6</td>
+                <td>دمشق</td>
+                <td>شقة ثلاث غرف وصالة</td>
+                <td>2,800,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="6"
+                    type="checkbox"
+                    name="showInfo6"
+                    id="showInfo6"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="6" name="property" id="property6" />
+                </td>
+              </tr>
+              <tr id="hiddenRow6" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة ابو رمانة</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق العاشر</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-16.webp"
+                          alt="المنطقة ابو رمانة"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-17.webp"
+                          alt="المنطقة ابو رمانة"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-18.webp"
+                          alt="المنطقة ابو رمانة"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>7</td>
+                <td>ريف دمشق</td>
+                <td>شقة اربع غرف وصالة</td>
+                <td>800,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="7"
+                    type="checkbox"
+                    name="showInfo7"
+                    id="showInfo7"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="7" name="property" id="property7" />
+                </td>
+              </tr>
+              <tr id="hiddenRow7" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة جرمانا</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق الثاني</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-19.webp"
+                          alt="المنطقة جرمانا"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-20.webp"
+                          alt="المنطقة جرمانا"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-21.webp"
+                          alt="المنطقة جرمانا"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>8</td>
+                <td>ريف دمشق</td>
+                <td>شقة غرفتين وصالة</td>
+                <td>1,500,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="8"
+                    type="checkbox"
+                    name="showInfo8"
+                    id="showInfo8"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="8" name="property" id="property8" />
+                </td>
+              </tr>
+              <tr id="hiddenRow8" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة مشروع دمر</td>
+                      <td>يوجد كراج</td>
+                      <td>الطابق الاول</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-22.webp"
+                          alt="المنطقة مشروع دمر"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-23.webp"
+                          alt="المنطقة مشروع دمر"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-24.webp"
+                          alt="المنطقة مشروع دمر"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td>دمشق</td>
+                <td>شقة ثلاث غرف وصالة</td>
+                <td>2,500,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="9"
+                    type="checkbox"
+                    name="showInfo9"
+                    id="showInfo9"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="9" name="property" id="property9" />
+                </td>
+              </tr>
+              <tr id="hiddenRow9" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة القصور</td>
+                      <td>يوجد كراج</td>
+                      <td>الطابق الرابع</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-25.jpg"
+                          alt="المنطقة القصور"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-26.jpg"
+                          alt="المنطقة القصور"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-27.jpg"
+                          alt="المنطقة القصور"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>10</td>
+                <td>دمشق</td>
+                <td>شقة اربع غرف وصالة</td>
+                <td>2,600,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="10"
+                    type="checkbox"
+                    name="showInfo10"
+                    id="showInfo10"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="10" name="property" id="property10" />
+                </td>
+              </tr>
+              <tr id="hiddenRow10" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة القصور</td>
+                      <td>يوجد كراج</td>
+                      <td>الطابق الرابع</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>لا يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-28.jpg"
+                          alt="المنطقة القصور"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-29.jpg"
+                          alt="المنطقة القصور"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-30.jpg"
+                          alt="المنطقة القصور"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>11</td>
+                <td>دمشق</td>
+                <td>شقة غرفتين وصالة</td>
+                <td>700,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="11"
+                    type="checkbox"
+                    name="showInfo11"
+                    id="showInfo11"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="11" name="property" id="property11" />
+                </td>
+              </tr>
+              <tr id="hiddenRow11" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة البرامكة</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق الثاني</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-31.jpg"
+                          alt="المنطقة البرامكة"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-32.jpg"
+                          alt="المنطقة البرامكة"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-33.jpg"
+                          alt="المنطقة البرامكة"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <tr>
+                <td>12</td>
+                <td>ريف دمشق</td>
+                <td>شقة ثلاث غرف وصالة</td>
+                <td>750,000,000 ل.س</td>
+                <td>
+                  <input
+                    class="showDetails"
+                    data-details="12"
+                    type="checkbox"
+                    name="showInfo12"
+                    id="showInfo12"
+                  />
+                </td>
+                <td>
+                  <input type="radio" value="12" name="property" id="property12" />
+                </td>
+              </tr>
+              <tr id="hiddenRow12" style="display: none">
+                <td colspan="6">
+                  <table class="subTable">
+                    <tr>
+                      <td>المنطقة صحنايا</td>
+                      <td>لا يوجد كراج</td>
+                      <td>الطابق العاشر</td>
+                    </tr>
+                    <tr>
+                      <td>الملكية: طابو</td>
+                      <td>يوجد بلكون</td>
+                      <td>مفروشة</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-34.webp"
+                          alt="المنطقة صحنايا"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-35.webp"
+                          alt="المنطقة صحنايا"
+                        />
+                      </td>
+                      <td>
+                        <img
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src="/images/img-36.webp"
+                          alt="المنطقة صحنايا"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+  
+            </tbody>
+          </table>
+          <div>
+            <input type="submit" value="متابعة">
+          </div>
+        </form>
+      </div>
+
+      <div id="formDiv" style="display: none;">
+        <h2 class="mb-30">
+          الرجاء ادخال المعلومات التالية لإكمال الطلب
+        </h2>
+        <form action="#" name="informationForm">
+          <table class="form-table mb-20">
+            <tr>
+              <td>
+                <div class="mb-20">
+                  <label for="userbirthday" class="form-label" pattern="\d{4}-\d{2}-\d{2}">تاريخ الولادة</label>
+                  <input class="form-input" type="date" id="userbirthday" name="userbirthday" placeholder="ادخل تاريخ الولادة" />
+                </div>
+                <div class="mb-20">
+                  <label for="userID" class="form-label">الرقم الوطني</label>
+                  <input class="form-input" type="text" id="userID" name="userID" placeholder="ادخل الرقم الوطني" />
+                </div>
+              </td>
+              <td>
+                <div class="mb-20">
+                  <label for="fullName" class="form-label">الإسم الكامل</label>
+                  <input class="form-input" type="text" id="fullName" name="fullName" placeholder="ادخل الإسم الكامل" />
+                </div>
+                
+                <div class="mb-20">
+                  <label for="phoneNum" class="form-label">رقم الهاتف</label>
+                  <input class="form-input" type="text" id="phoneNum" name="phoneNum" placeholder="ادخل الرقم الهاتف"/>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <div class="mb-20">
+                  <label for="email" class="form-label">البريد الإلكتروني</label>
+                  <input class="form-input" type="email" id="email" name="email" placeholder="ادخل البريد الإلكتروني"/>
+                </div>
+              </td>
+            </tr>
+            
+          </table>
+          <div class="mb-20">
+            <div id="captcha">
+              <div class="controls">
+                  <input class="user-text form-input" placeholder="يرجى ادخال رمز التحقق" type="text" />
+                  <button type="button" class="refresh btn-common">
+                      <!-- this image should be converted into inline svg -->
+                      <img width="20" height="20" class="mw-100" loading="lazy" src="./images/refresh_icon.png" alt="refresh icon">
+                  </button>
+              </div>
+          </div>
+          </div>
+          <div>
+            <input id="backBtn" type="button" value="رجوع">
+            <input class="mr-15" type="submit" value="إرسال">
+          </div>
+        </form>
+      </div>
+      
+      <div id="propertyDetailsWrapper" style="display: none;">
+        <div class="course-info mb-30">
+          <h1>تفاصيل الطلب</h1>
+        </div>
+        <table class="custome-table mb-20">
+          <thead>
+            <tr>
+                <th>ID</th>
+                <th>المدينة</th>
+                <th>تفاصيل</th>
+                <th>الايجار الشهري</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td id="propertyID"></td>
+              <td id="propertyCity"></td>
+              <td id="propertyDetails"></td>
+              <td id="propertyPrice"></td>
+            </tr>
+            <tr>
+              <tr>
+                <td colspan="4">
+                  <table class="subTable">
+                    <tr>
+                      <td id="propertyArea"></td>
+                      <td  id="propertyParking"></td>
+                      <td  id="propertyFloor"></td>
+                    </tr>
+                    <tr>
+                      <td  id="propertyContract"></td>
+                      <td  id="propertyBalkon"></td>
+                      <td  id="propertyFurniture"></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <img
+                          id="propertyImage1"
+                          class="mw-100"
+                          width="323"
+                          height="215"
+                          loading="lazy"
+                          src=""
+                          alt="property image 1"
+                        />
+                      </td>
+                      <td>
+                        <img
+                        id="propertyImage2"
+                        class="mw-100"
+                        width="323"
+                        height="215"
+                        loading="lazy"
+                        src=""
+                        alt="property image 2"
+                        />
+                      </td>
+                      <td>
+                        <img
+                        id="propertyImage3"
+                        class="mw-100"
+                        width="323"
+                        height="215"
+                        loading="lazy"
+                        src=""
+                        alt="property image 3"
+                        />
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <input id="backBtn1" type="button" value="الرجوع الى قائمة العقارات">
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>حقوق النشر &copy; 2024 - عقاراتي</p>
+    </footer>
+  </body>
+</html>

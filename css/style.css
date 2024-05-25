@@ -1,0 +1,296 @@
+﻿* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #012b39;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-bar li {
+  margin: 0px 20px;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+header {
+  background-color: #012b39;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-section {
+  padding: 15px 30px;
+  max-width: 80%;
+  margin: 10px auto;
+  min-height: 70vh;
+}
+
+.course-info {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.course-info h1 {
+  margin-bottom: 10px;
+}
+
+.course-info h1,
+.course-info h2 {
+  color: #012b39;
+  font-weight: bold;
+}
+
+.custome-table {
+  background: #012b39;
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+.custome-table caption {
+  color: #012b39;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.custome-table th {
+  border-bottom: 1px solid #364043;
+  color: #e2b842;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.custome-table td {
+  color: #fff;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.custome-table tbody tr {
+  transition: all 0.25s ease;
+}
+
+.custome-table tbody tr:hover {
+  background: #014055;
+}
+
+footer {
+  background-color: #012b39;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+table.mainTable {
+  text-align: center;
+}
+
+.mainTable {
+  border: 2px thick black !important;
+  width: 100% !important;
+  table-layout: fixed;
+  direction: rtl;
+  border-collapse: collapse !important;
+  direction: rtl;
+}
+
+.mainTable th {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  background-color: #f2f2f2;
+}
+
+.toggle-button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  background-color: #45a049;
+}
+.square-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #00ffff;
+  background-color: transparent;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.square-button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.circle-button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.circle-button {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #00ffff;
+  border-radius: 50%;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.clicked {
+  background-color: black;
+}
+.subTable {
+  border-bottom: 1px solid #ddd !important;
+  width: 100%;
+  direction: rtl;
+  border: thin !important;
+}
+
+.mw-100 {
+  max-width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.custom-list {
+  direction: rtl;
+}
+
+.custom-list li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #012b39;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.text-right {
+  text-align: right;
+}
+
+input[type ="submit"] ,input[type ="button"] {
+  background-color: #ff7600;
+  border: 1px solid #000000;
+  outline: none;
+  padding: 10px 20px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+input[type ="submit"]:hover, input[type ="button"]:hover {
+  color: #FFFFFF;
+  background-color: #012b39;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #012b39;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  text-align: right;
+  outline: none;
+  min-width: 250px;
+  min-height: 35px;
+  background-color: #b9b9b926;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  color: #012b39;
+  font-size: 16px;
+}
+
+.form-input::placeholder {
+  color: #012b396f;
+  font-size: 16px;
+}
+
+.form-table {
+  margin-left: auto;
+  border-spacing: 20px 2px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.btn-common {
+  background-color: #b9b9b926;
+  border: 1px solid #000000;
+  outline: none;
+  padding: 4px 14px;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
